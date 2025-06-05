@@ -3146,7 +3146,7 @@ entry!('wu2023tidybot',
   author('Jimmy Wu and Rika Antonova and Adam Kan and Marion Lepert and Andy Zeng and Shuran Song and Jeannette Bohg and Szymon Rusinkiewicz and Thomas A. Funkhouser'),
 )
 
-entry!('mees23hulc2',
+entry!('mees2023hulc2',
   icra(2023),
   title('Grounding Language with Visual Affordances over Unstructured Data'),
   author('Oier Mees and Jessica Borja-Diaz and Wolfram Burgard'),
@@ -3200,7 +3200,7 @@ entry!('minderer2023owlv2',
 entry!('oquab2023dinov2',
   tmlr(2023),
   title('{DINOv2}: Learning Robust Visual Features without Supervision'),
-  author('Maxime Oquab and Timoth\ée Darcet and Théo Moutakanni and Huy Q. Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mahmoud Assran and Nicolas Ballas and Wojciech Galuba and Russ Howes and Po-Yao (Bernie) Huang and Shang-Wen Li and Ishan Misra and Michael G. Rabbat and Vasu Sharma and Gabriel Synnaeve and Huijiao Xu and Hervé Jégou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski'),
+  author('Maxime Oquab and Timothée Darcet and Théo Moutakanni and Huy Q. Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mahmoud Assran and Nicolas Ballas and Wojciech Galuba and Russ Howes and Po-Yao (Bernie) Huang and Shang-Wen Li and Ishan Misra and Michael G. Rabbat and Vasu Sharma and Gabriel Synnaeve and Huijiao Xu and Hervé Jégou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski'),
 )
 
 entry!('majumdar2023vc1',
@@ -3969,4 +3969,338 @@ entry!('openai2023tts',
   year(2023),
   type('misc'),
   howpublished('\url{https://platform.openai.com/docs/guides/text-to-speech/}'),
+)
+
+#######################################################################################################################
+###                     Dissertation: Language-Driven Learning for Interactive Robotics                             ###
+#######################################################################################################################
+entry!('kim2024openvla',
+  corl(2024),
+  title('{OpenVLA}: An Open-Source Vision-Language-Action Model'),
+  author('Moo Jin Kim and Karl Pertsch and Siddharth Karamcheti and Ted Xiao and Ashwin Balakrishna and Suraj Nair and Rafael Rafailov and Ethan Foster and Grace Lam and Pannag R. Sanketi and Quan Vuong and Thomas Kollar and Benjamin Burchfiel and Russ Tedrake and Dorsa Sadigh and Sergey Levine and Percy Liang and Chelsea Finn'),
+)
+
+entry!('grannen2024vsandbox',
+  corl(2024),
+  title('Vocal Sandbox: Continual Learning and Adaptation for Situated Human-Robot Collaboration'),
+  author('Jennifer Grannen and Siddharth Karamcheti and Suvir Mirchandani and Percy Liang and Dorsa Sadigh'),
+)
+
+entry!('shafiullah2023dobbe',
+  arxiv(2023, '2311.16098'),
+  title('On Bringing Robots Home'),
+  author('Nur Muhammad Mahi Shafiullah and Anant Rai and Haritheja Etukuru and Yiqian Liu and Ishan Misra and Soumith Chintala and Lerrel Pinto'),
+)
+
+entry!('ravichandar2020recent',
+  article('Annual Review of Control, Robotics, and Autonomous Systems', 2020, 3),
+  title('Recent Advances in Robot Learning from Demonstration'),
+  author('Harish Ravichandar and Athanasios S. Polydoros and Sonia Chernova and Aude G Billard'),
+  pages(297, 330),
+)
+
+entry!('firoozi2023foundation',
+  ijrr(2023, 44),
+  title('Foundation Models in Robotics: Applications, Challenges, and the Future'),
+  author('Roya Firoozi and Johnathan Tucker and Stephen Tian and Anirudha Majumdar and Jiankai Sun and Weiyu Liu and Yuke Zhu and Shuran Song and Ashish Kapoor and Karol Hausman and Brian Ichter and Danny Driess and Jiajun Wu and Cewu Lu and Mac Schwager'),
+  pages(701, 739),
+)
+
+entry!('sutton2019bitter',
+  title('The Bitter Lesson'),
+  author('Richard Sutton'),
+  year(2019),
+  type('misc'),
+  howpublished('\url{http://www.incompleteideas.net/IncIdeas/BitterLesson.html}'),
+)
+
+entry!('zellers2019hellaswag',
+  acl(2019),
+  title('HellaSwag: Can a Machine Really Finish Your Sentence?'),
+  author('Rowan Zellers and Ari Holtzman and Yonatan Bisk and Ali Farhadi and Yejin Choi'),
+)
+
+entry!('shah2023mutex',
+  corl(2023),
+  title('{MUTEX}: Learning Unified Policies from Multimodal Task Specifications'),
+  author('Rutav Shah and Roberto Martìn-Martìn and Yuke Zhu'),
+)
+
+entry!('mendonca2023structured',
+  corl(2023),
+  title('Structured World Models from Human Videos'),
+  author('Russell Mendonca and Shikhar Bahl and Deepak Pathak'),
+)
+
+entry!('luo2024fmb',
+  ijrr(2024, 44),
+  title('{FMB}: A Functional Manipulation Benchmark for Generalizable Robotic Learning'),
+  author('Jianlan Luo and Charles Xu and Fangchen Liu and Liam Tan and Zipeng Lin and Jeffrey Wu and Pieter Abbeel and Sergey Levine'),
+  pages(592, 606),
+)
+
+entry!('zhou2023train',
+  icra(2023),
+  title('Train Offline, Test Online: A Real Robot Learning Benchmark'),
+  author('Gaoyue Zhou and Victoria Dean and Mohan Kumar Srirama and Aravind Rajeswaran and Jyothish Pari and Kyle Hatch and Aryan Jain and Tianhe Yu and Pieter Abbeel and Lerrel Pinto and Chelsea Finn and Abhinav Gupta'),
+)
+
+entry!('cui2023play',
+  iclr(2023),
+  title('From Play to Policy: Conditional Behavior Generation from Uncurated Robot Data'),
+  author('Zichen Jeff Cui and Yibin Wang and Nur Muhammad Mahi Shafiullah and Lerrel Pinto'),
+)
+
+entry!('heo2023furniturebench',
+  rss(2023),
+  title('FurnitureBench: Reproducible Real-World Benchmark for Long-Horizon Complex Manipulation'),
+  author('Minho Heo and Youngwoon Lee and Doohyun Lee and Joseph J. Lim'),
+)
+
+entry!('luo2023multistage',
+  tro(2023, 40),
+  title('Multi-Stage Cable Routing through Hierarchical Imitation Learning'),
+  author('Jianlan Luo and Charles Xu and Xinyang Geng and Gilbert Feng and Kuan Fang and Liam Tan and Stefan Schaal and Sergey Levine'),
+  pages(1476, 1491),
+)
+
+entry!('zhu2023viola',
+  corl(2023),
+  title('{VIOLA}: Imitation Learning for Vision-Based Manipulation with Object Proposal Priors'),
+  author('Yifeng Zhu and Abhishek Joshi and Peter Stone and Yuke Zhu'),
+)
+
+entry!('zhao2023learning',
+  rss(2023),
+  title('Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware'),
+  author('Tony Z Zhao and Vikash Kumar and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('leviathan2023fast',
+  icml(2023),
+  title('Fast Inference from Transformers via Speculative Decoding'),
+  author('Yaniv Leviathan and Matan Kalman and Yossi Matias'),
+)
+
+entry!('huang2024embodied',
+  icml(2024),
+  title('An Embodied Generalist Agent in 3D World'),
+  author('Jiangyong Huang and Silong Yong and Xiaojian Ma and Xiongkun Linghu and Puhao Li and Yan Wang and Qing Li and Song-Chun Zhu and Baoxiong Jia and Siyuan Huang'),
+)
+
+entry!('li2023vision',
+  arxiv(2023, '2311.01378'),
+  title('Vision-Language Foundation Models as Effective Robot Imitators'),
+  author('Xinghang Li and Minghuan Liu and Hanbo Zhang and Cunjun Yu and Jie Xu and Hongtao Wu and Chilam Cheang and Ya Jing and Weinan Zhang and Huaping Liu and Hang Li and Tao Kong'),
+)
+
+entry!('zhen2024threedvla',
+  icml(2024),
+  title('{3D}-{VLA}: {3D} Vision-Language-Action Generative World Model'),
+  author('Haoyu Zhen and Xiaowen Qiu and Peihao Chen and Jincheng Yang and Xin Yan and Yilun Du and Yining Hong and Chuang Gan'),
+)
+
+entry!('dorka2024matters',
+  icra(2024),
+  title('What Matters in Employing Vision Language Models for Tokenizing Actions in Robot Control?'),
+  author('Nicolai Dorka and Chenguang Huang and Tim Welschehold and Wolfram Burgard'),
+)
+
+entry!('bai2023qwen',
+  arxiv(2023, '2309.16609'),
+  title('Qwen Technical Report'),
+  author('Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and others'),
+)
+
+entry!('lin2024vila',
+  cvpr(2024),
+  title('{VILA}: On Pre-Training for Visual Language Models'),
+  author('Ji Lin and Hongxu Yin and Wei Ping and Yao Lu and Pavlo Molchanov and Andrew Tao and Huizi Mao and Jan Kautz and Mohammad Shoeybi and Song Han'),
+)
+
+entry!('mckinzie2024mm1',
+  eccv(2024),
+  title('{MM-1}: Methods, Analysis \& Insights from Multimodal {LLM} Pre-Training'),
+  author('Brandon McKinzie and Zhe Gan and Jean-Philippe Fauconnier and Sam Dodge and Bowen Zhang and Philipp Dufter and Dhruti Shah and Xianzhi Du and Futang Peng and Floris Weers and Anton Belyi and Haotian Zhang and Karanjeet Singh and Doug Kang and Ankur Jain and Hongyu Hè and Max Schwarzer and Tom Gunter and Xiang Kong and Aonan Zhang and Jianyu Wang and Chong Wang and Nan Du and Tao Lei and Sam Wiseman and Guoli Yin and Mark Lee and Zirui Wang and Ruoming Pang and Peter Grasch and Alexander Toshev and Yinfei Yang'),
+)
+
+entry!('yang2023polybot',
+  corl(2023),
+  title('Polybot: Training One Policy Across Robots While Embracing Variability'),
+  author('Jonathan Heewon Yang and Dorsa Sadigh and Chelsea Finn'),
+)
+
+entry!('salhotra2023bridging',
+  corl(2023),
+  title('Bridging Action Space Mismatch in Learning from Demonstrations'),
+  author('Gautam Salhotra and I-Chun Arthur Liu and Gaurav Sukhatme'),
+)
+
+entry!('shah2023gnm',
+  icra(2023),
+  title('{GNM}: A General Navigation Model to Drive Any Robot'),
+  author('Dhruv Shah and Ajay Sridhar and Arjun Bhorkar and Noriaki Hirose and Sergey Levine'),
+)
+
+entry!('bousmalis2023robocat',
+  tmlr(2023),
+  title('RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation'),
+  author('Konstantinos Bousmalis and Giulia Vezzani and Dushyant Rao and Coline Devin and Alex X. Lee and Maria Bauzá and Todor Davchev and Yuxiang Zhou and Agrim Gupta and Akhil Raju and Antoine Laurens and Claudio Fantacci and Valentin Dalibard and Martina Zambelli and Murilo Fernandes Martins and Rugile Pevceviciute and Michiel Blokzijl and Misha Denil and Nathan Batchelor and Thomas Lampe and Emilio Parisotto and Konrad Zolna and Scott E. Reed and Sergio Gomez Colmenarejo and Jonathan Scholz and Abbas Abdolmaleki and Oliver Groth and Jean-Baptiste Regli and Oleg O. Sushkov and Tom Rothorl and Josè Enrique Chen and Yusuf Aytar and David Barker and Joy Ortiz and Martin A. Riedmiller and Jost Tobias Springenberg and Raia Hadsell and Francesco Nori and Nicolas Manfred Otto Heess'),
+)
+
+entry!('yang2024pushing',
+  rss(2024),
+  title('Pushing the Limits of Cross-Embodiment Learning for Manipulation and Navigation'),
+  author('Jonathan Yang and Catherine Glossop and Arjun Bhorkar and Dhruv Shah and Quan Vuong and Chelsea Finn and Dorsa Sadigh and Sergey Levine'),
+)
+
+entry!('gadre2023cows',
+  cvpr(2023),
+  title('Cows on Pasture: Baselines and Benchmarks for Language-Driven Zero-Shot Object Navigation'),
+  author('Samir Yitzhak Gadre and Mitchell Wortsman and Gabriel Ilharco and Ludwig Schmidt and Shuran Song'),
+)
+
+entry!('du2023vision',
+  arxiv(2023, '2303.07280'),
+  title('Vision-Language Models as Success Detectors'),
+  author('Yuqing Du and Ksenia Konyushkova and Misha Denil and Akhil Raju and Jessica Landon and Felix Hill and Nando de Freitas and Serkan Cabi'),
+)
+
+entry!('zhang2023grounding',
+  arxiv(2023, '2304.08587'),
+  title('Grounding Classical Task Planners via Vision-Language Models'),
+  author('Xiaohan Zhang and Yan Ding and Saeid Amiri and Hao Yang and Andy Kaminski and Chad Esselink and Shiqi Zhang'),
+)
+
+entry!('sontakke2024roboclip',
+  neurips(2024),
+  title('{RoboCLIP}: One Demonstration is Enough to Learn Robot Policies'),
+  author('Sumedh Sontakke and Jesse Zhang and Séb Arnold and Karl Pertsch and Erdem Biyik and Dorsa Sadigh and Chelsea Finn and Laurent Itti'),
+)
+
+entry!('mtopt2021arxiv',
+  arxiv(2021, '2104.08212'),
+  title('{MT-OPT}: Continuous Multi-Task Robotic Reinforcement Learning at Scale'),
+  author('Dmitry Kalashnkov and Jake Varley and Yevgen Chebotar and Ben Swanson and Rico Jonschkowski and Chelsea Finn and Sergey Levine and Karol Hausman'),
+)
+
+entry!('ehsani2023imitating',
+  arxiv(2023, '2312.02976'),
+  title('{SPOC}: Imitating Shortest Paths in Simulation Enables Effective Navigation and Manipulation in the Real World'),
+  author('Kiana Ehsani and Tanmay Gupta and Rose Hendrix and Jordi Salvador and Luca Weihs and Kuo-Hao Zeng and Kunal Pratap Singh and Yejin Kim and Winson Han and Alvaro Herrasti and Ranjay Krishna and Dustin Schwenk and Eli VanderBilt and Aniruddha Kembhavi'),
+)
+
+entry!('bharadhwaj2023roboagent',
+  arxiv(2023, '2309.01918'),
+  title('{RoboAgent}: Generalization and Efficiency in Robot Manipulation via Semantic Augmentations and Action Chunking'),
+  author('Homanga Bharadhwaj and Jay Vakil and Mohit Sharma and Abhinav Gupta and Shubham Tulsiani and Vikash Kumar'),
+)
+
+entry!('cabi2020scaling',
+  rss(2020),
+  title('Scaling Data-Driven Robotics with Reward Sketching and Batch Reinforcement Learning'),
+  author('Serkan Cabi and Sergio Gomez Colmenarejo and Alexander Novikov and Ksenia Konyushkova and Scott Reed and Rae Jeong and Konrad Zolna and Yusuf Aytar and David Budden and Mel Vecerik and Oleg Sushkov and David Barker and Jonathan Scholz and Misha Denil and Nando de Freitas and Ziyu Wang'),
+)
+
+entry!('fang2023rh20t',
+  corl(2023),
+  title('{RH20T}: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot'),
+  author('Hao-Shu Fang and Hongjie Fang and Zhenyu Tang and Jirong Liu and Chenxi Wang and Junbo Wang and Haoyi Zhu and Cewu Lu'),
+)
+
+entry!('devin2017learning',
+  icra(2017),
+  title('Learning Modular Neural Network Policies for Multi-Task and Multi-Robot Transfer'),
+  author('Coline Devin and Abhishek Gupta and Trevor Darrell and Pieter Abbeel and Sergey Levine'),
+)
+
+entry!('hu2022know',
+  iclr(2022),
+  title('Know Thyself: Transferable Visual Control Policies Through Robot-Awareness'),
+  author('Edward S. Hu and Kun Huang and Oleh Rybkin and Dinesh Jayaraman'),
+)
+
+entry!('stone2023open',
+  corl(2023),
+  title('Open-World Object Manipulation Using Pre-Trained Vision-Language Models'),
+  author('Austin Stone and Ted Xiao and Yao Lu and Keerthana Gopalakrishnan and Kuang-Huei Lee and Quan Vuong and Paul Wohlhart and Brianna Zitkovich and Fei Xia and Chelsea Finn and Karol Hausman'),
+)
+
+entry!('chen2023pali',
+  iclr(2023),
+  title('{PaLI}: A Jointly-Scaled Multilingual Language-Image Model'),
+  author('Xi Chen and Xiao Wang and Soravit Changpinyo and A. J. Piergiovanni and Piotr Padlewski and Daniel M. Salz and Sebastian Goodman and Adam Grycner and Basil Mustafa and Lucas Beyer and Alexander Kolesnikov and Joan Puigcerver and Nan Ding and Keran Rong and Hassan Akbari and Gaurav Mishra and Linting Xue and Ashish V. Thapliyal and James Bradbury and Weicheng Kuo and Mojtaba Seyedhosseini and Chao Jia and Burcu Karagol Ayan and Carlos Riquelme and Andreas Steiner and Anelia Angelova and Xiaohua Zhai and Neil Houlsby and Radu Soricut'),
+)
+
+entry!('microsoft2023phi15',
+  arxiv(2023, '2309.05463'),
+  title('Textbooks Are All You Need II: phi-1.5 Technical Report'),
+  author('Yuanzhi Li and Sébastien Bubeck and Ronen Eldan and Allie Del Giorno and Suriya Gunasekar and Yin Tat Lee'),
+)
+
+entry!('google2024gemma',
+  arxiv(2024, '2403.08295'),
+  title('Gemma: Open Models Based on Gemini Research and Technology'),
+  author('Thomas Mesnard and Cassidy Hardin and Robert Dadashi and Surya Bhupatiraju and Shreya Pathak and Laurent Sifre and Morgane Riviére and Mihir Sanjay Kale and Juliette Love and Pouya Tafti and Léonard Hussenot and Pier Giuseppe Sessa and Aakanksha Chowdhery and Adam Roberts and Aditya Barua and Alex Botev and Alex Castro-Ros and Ambrose Slone and Amélie Héliou and Andrea Tacchetti and Anna Bulanova and Antonia Paterson and Beth Tsai and Bobak Shahriari and Charline Le Lan and Christopher A. Choquette-Choo and Clément Crepy and Daniel Cer and Daphne Ippolito and David Reid and Elena Buchatskaya and Eric Ni and Eric Noland and Geng Yan and George Tucker and George-Christian Muraru and Grigory Rozhdestvenskiy and Henryk Michalewski and Ian Tenney and Ivan Grishchenko and Jacob Austin and James Keeling and Jane Labanowski and Jean-Baptiste Lespiau and Jeff Stanway and Jenny Brennan and Jeremy Chen and Johan Ferret and Justin Chiu and Justin Mao-Jones and Katherine Lee and Kathy Yu and Katie Millican and Lars Lowe Sjoesund and Lisa Lee and Lucas Dixon and Machel Reid and Maciej Mikuła and Mateo Wirth and Michael Sharman and Nikolai Chinaev and Nithum Thain and Olivier Bachem and Oscar Chang and Oscar Wahltinez and Paige Bailey and Paul Michel and Petko Yotov and Rahma Chaabouni and Ramona Comanescu and Reena Jana and Rohan Anil and Ross McIlroy and Ruibo Liu and Ryan Mullins and Samuel L Smith and Sebastian Borgeaud and Sertan Girgin and Sholto Douglas and Shree Pandya and Siamak Shakeri and Soham De and Ted Klimenko and Tom Hennigan and Vlad Feinberg and Wojciech Stokowiec and Yu-hui Chen and Zafarali Ahmed and Zhitao Gong and Tris Warkentin and Ludovic Peran and Minh Giang and Clément Farabet and Oriol Vinyals and Jeff Dean and Koray Kavukcuoglu and Demis Hassabis and Zoubin Ghahramani and Douglas Eck and Joelle Barral and Fernando Pereira and Eli Collins and Armand Joulin and Noah Fiedel and Evan Senter and Alek Andreev and Kathleen Kenealy'),
+)
+
+entry!('covariant2024rfm',
+  title('Introducing {RFM-1}: Giving Robots Human-Like Reasoning Capabilities'),
+  author('Covariant'),
+  year(2024),
+  type('misc'),
+  howpublished('\url{https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/}'),
+)
+
+entry!('wayve2024lingo2',
+  title('{LINGO-2}: Driving with Natural Language'),
+  author('Wayve'),
+  year(2024),
+  type('misc'),
+  howpublished('\url{https://wayve.ai/thinking/lingo-2-driving-with-language/}'),
+)
+
+entry!('nvidia2024tensorrtllm',
+  title('{TensorRT-LLM}'),
+  author('NVIDIA'),
+  year(2024),
+  type('misc'),
+  howpublished('\url{https://github.com/NVIDIA/TensorRT-LLM}'),
+)
+
+entry!('dass2023jacoplay',
+  title('{CLVR} Jaco Play Dataset'),
+  author('Shivin Dass and Jullian Yapeter and Jesse Zhang and Jiahui Zhang and Karl Pertsch and Stefanos Nikolaidis and Joseph J. Lim'),
+  year(2023),
+  type('misc'),
+  howpublished('\url{https://github.com/clvrai/clvr_jaco_play_dataset}'),
+)
+
+entry!('berkeley2023ur5',
+  title('Berkeley {UR5} Demonstration Dataset'),
+  author('Lawrence Yunliang Chen and Simeon Adebola and Ken Goldberg'),
+  year(2023),
+  type('misc'),
+  howpublished('\url{https://sites.google.com/view/berkeley-ur5/home}'),
+)
+
+entry!('ucsd2023kitchens',
+  title('{UCSD} Kitchens Dataset'),
+  author('Ge Yan and Kris Wu and Xiaolong Wang'),
+  year(2023),
+  type('misc'),
+)
+
+entry!('quere2020shared',
+  icra(2020),
+  title('Shared Control Templates for Assistive Robotics'),
+  author('Gabriel Quere and Annette Hagengruber and Maged Iskandar and Samuel Bustamante and Daniel Leidner and Freek and Stulp and Joern Vogel'),
+)
+
+entry!('zhu2023fanuc',
+  title('{FANUC} Manipulation: A Dataset for Learning-based Manipulation with {FANUC} Mate 200iD Robot'),
+  author('Xinghao Zhu and Ran Tian and Chenfeng Xu and Mingxiao Huo and Wei Zhan and Masayoshi Tomizuka and Mingyu Ding'),
+  year(2023),
+  type('misc'),
+  howpublished('\url{https://sites.google.com/berkeley.edu/fanuc-manipulation}'),
 )
