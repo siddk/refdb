@@ -195,7 +195,7 @@ entry!('hewitt2023backpack',
 # HRI 2023
 
 entry!('cui2023corrections',
-  title('"No, to the Right"-- Online Language Corrections for Robotic Manipulation via Shared Autonomy'),
+  title('"{N}o, to the Right"-- Online Language Corrections for Robotic Manipulation via Shared Autonomy'),
   author('Yuchen Cui and Siddharth Karamcheti and Raj Palleti and Nidhya Shivakumar and Percy Liang and Dorsa Sadigh'),
   hri(2023),
   url('https://arxiv.org/pdf/2301.02555.pdf'),
@@ -300,7 +300,7 @@ entry!('park2022social',
 entry!('wei2022emergent',
   title('Emergent Abilities of Large Language Models'),
   author('Jason Wei and Yi Tay and Rishi Bommasani and Colin Raffel and Barret Zoph and Sebastian Borgeaud and Dani Yogatama and Maarten Bosma and Denny Zhou and Donald Metzler and Ed Chi and Tatsunori Hashimoto and Oriol Vinyals and Percy Liang and Jeff Dean and William Fedus'),
-  tmlr(2022, 0),
+  tmlr(2022),
   url('https://arxiv.org/pdf/2206.07682.pdf'),
 )
 
