@@ -4304,3 +4304,9 @@ entry!('zhu2023fanuc',
   type('misc'),
   howpublished('\url{https://sites.google.com/berkeley.edu/fanuc-manipulation}'),
 )
+
+entry!('liu2024libero',
+  neurips(2024),
+  title('{LIBERO}: Benchmarking Knowledge Transfer for Lifelong Learning'),
+  author('Bo Liu and Yifeng Zhu and Chongkai Gao and Yihao Feng and Qiang Liu and Yuke Zhu and Peter Stone'),
+)
